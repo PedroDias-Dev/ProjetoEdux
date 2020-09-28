@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programação\\Projetos\\EduX\\EduX\\EduX\\EduX.csproj": {}
+    "D:\\Programação\\Projetos\\Edux\\Edux\\EduX\\EduX.csproj": {}
   },
   "projects": {
-    "D:\\Programação\\Projetos\\EduX\\EduX\\EduX\\EduX.csproj": {
+    "D:\\Programação\\Projetos\\Edux\\Edux\\EduX\\EduX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programação\\Projetos\\EduX\\EduX\\EduX\\EduX.csproj",
+        "projectUniqueName": "D:\\Programação\\Projetos\\Edux\\Edux\\EduX\\EduX.csproj",
         "projectName": "EduX",
-        "projectPath": "D:\\Programação\\Projetos\\EduX\\EduX\\EduX\\EduX.csproj",
+        "projectPath": "D:\\Programação\\Projetos\\Edux\\Edux\\EduX\\EduX.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "D:\\Programação\\Projetos\\EduX\\EduX\\EduX\\obj\\",
+        "outputPath": "D:\\Programação\\Projetos\\Edux\\Edux\\EduX\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +52,19 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
