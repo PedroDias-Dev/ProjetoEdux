@@ -93,7 +93,7 @@ namespace EduX.Repositories
             try
             {
                 //busca turma pelo id
-                Turma turmaTemp = BuscarPorId(turma.Id);
+                Turma turmaTemp = BuscarPorId(turma.IdTurma);
                 //verifica se a turma existe no sistema, caso nao exista gera um exception
                 if (turmaTemp == null)
                     throw new Exception("A Turma inserida não foi encontrada no sistema. Verifique se foi digitado da maneira correta e tente novamente.");

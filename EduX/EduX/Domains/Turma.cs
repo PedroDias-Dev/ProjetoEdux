@@ -11,10 +11,9 @@ namespace EduX.Domains
             ProfessorTurma = new HashSet<ProfessorTurma>();
         }
 
-        public int IdTurma { get; set; }
-        public Guid Id { get; set; }
+        public Guid IdTurma { get; set; }
         public string Descricao { get; set; }
-        public int? IdCurso { get; set; }
+        public Guid? IdCurso { get; set; }
 
         public virtual Curso IdCursoNavigation { get; set; }
         public virtual ICollection<AlunoTurma> AlunoTurma { get; set; }

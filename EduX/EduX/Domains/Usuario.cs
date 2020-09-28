@@ -14,7 +14,6 @@ namespace EduX.Domains
         }
 
         public Guid IdUsuario { get; set; }
-        public Guid Id { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
@@ -27,5 +26,6 @@ namespace EduX.Domains
         public virtual ICollection<Curtida> Curtida { get; set; }
         public virtual ICollection<Dica> Dica { get; set; }
         public virtual ICollection<ProfessorTurma> ProfessorTurma { get; set; }
+
     }
 }

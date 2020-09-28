@@ -11,7 +11,6 @@ namespace EduX.Domains
         }
 
         public Guid IdPerfil { get; set; }
-        public Guid Id { get; set; }
         public string Permissao { get; set; }
 
         public virtual ICollection<Usuario> Usuario { get; set; }

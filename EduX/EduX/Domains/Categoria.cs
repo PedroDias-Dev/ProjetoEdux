@@ -10,8 +10,7 @@ namespace EduX.Domains
             Objetivo = new HashSet<Objetivo>();
         }
 
-        public int IdCategoria { get; set; }
-        public Guid Id { get; set; }
+        public Guid IdCategoria { get; set; }
         public string Tipo { get; set; }
 
         public virtual ICollection<Objetivo> Objetivo { get; set; }

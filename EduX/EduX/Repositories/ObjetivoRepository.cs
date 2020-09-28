@@ -93,7 +93,7 @@ namespace EduX.Repositories
             try
             {
                 //busca objetivo pelo id
-                Objetivo objetivoTemp = BuscarPorId(objetivo.Id);
+                Objetivo objetivoTemp = BuscarPorId(objetivo.IdObjetivo);
                 //verifica se o objetivo existe no sistema, caso nao exista gera um exception
                 if (objetivoTemp == null)
                     throw new Exception("O Objetivo inserido não foi encontrado no sistema. Verifique se foi digitado da maneira correta e tente novamente.");

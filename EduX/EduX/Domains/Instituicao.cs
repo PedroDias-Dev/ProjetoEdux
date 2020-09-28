@@ -10,8 +10,7 @@ namespace EduX.Domains
             Curso = new HashSet<Curso>();
         }
 
-        public int IdInstituicao { get; set; }
-        public Guid Id { get; set; }
+        public Guid IdInstituicao { get; set; }
         public string Nome { get; set; }
         public string Logradouro { get; set; }
         public string Numero { get; set; }

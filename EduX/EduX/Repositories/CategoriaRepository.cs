@@ -94,7 +94,7 @@ namespace EduX.Repositories
             try
             {
                 //busca categoria pelo id
-                Categoria categoriaTemp = BuscarPorId(categoria.Id);
+                Categoria categoriaTemp = BuscarPorId(categoria.IdCategoria);
                 //verifica se a categoria existe no sistema, caso nao exista gera um exception
                 if (categoriaTemp == null)
                     throw new Exception("A Categoria inserida não foi encontrada no sistema. Verifique se foi digitado da maneira correta e tente novamente.");

@@ -11,10 +11,9 @@ namespace EduX.Domains
         }
 
         public Guid IdAlunoTurma { get; set; }
-        public Guid Id { get; set; }
         public string Matricula { get; set; }
         public Guid? IdUsuario { get; set; }
-        public int? IdTurma { get; set; }
+        public Guid? IdTurma { get; set; }
 
         public virtual Turma IdTurmaNavigation { get; set; }
         public virtual Usuario IdUsuarioNavigation { get; set; }
