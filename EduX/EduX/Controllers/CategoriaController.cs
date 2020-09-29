@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using EduX.Domains;
 using EduX.Interfaces;
 using EduX.Repositories;
+using Microsoft.AspNetCore.Authorization;
 //using EduX.Utils;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EduX.Controllers
 {
+    [Authorize(Roles = "Padrao,Administrador")]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriasController : ControllerBase

@@ -150,5 +150,3 @@ D:\Programação\Projetos\Edux\Edux\EduX\bin\Debug\netcoreapp3.1\ru\Microsoft.Co
 D:\Programação\Projetos\Edux\Edux\EduX\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programação\Projetos\Edux\Edux\EduX\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programação\Projetos\Edux\Edux\EduX\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Programação\Projetos\Edux\Edux\EduX\obj\Debug\netcoreapp3.1\EduX.csproj.CoreCompileInputs.cache
-D:\Programação\Projetos\Edux\Edux\EduX\obj\Debug\netcoreapp3.1\EduX.MvcApplicationPartsAssemblyInfo.cache

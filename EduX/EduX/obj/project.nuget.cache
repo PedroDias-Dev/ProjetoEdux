@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i6te1rIuDwtwixY4O3EVtLIN8lGZYiH1dfArZi0p/CI2XRL6mM/7QYnpdCTu215wC9XpeTTKf3PlvWEq0+D3fQ==",
+  "dgSpecHash": "NE9FvmBIJXJzL/YPgvbMkLfPf12Jqi2pRtOJLV9CMvjhmXgjmRusGqjWpdG7s2UdorhbiJ/4XoXoYXQEBvwuYA==",
   "success": true,
   "projectFilePath": "D:\\Programação\\Projetos\\Edux\\Edux\\EduX\\EduX.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
